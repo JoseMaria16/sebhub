@@ -31,17 +31,17 @@ export default function Home() {
     <section className="lg:max-w-[1100px] px-5 md:px-20 relative mt-40  md:mt-20  mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         <div  className="bg-gray-400 w-full h-[250px] relative">
-          <Image src={"/cole1.jpg"} objectFit="cover" fill />
+          <Image alt="" src={"/cole1.jpg"} objectFit="cover" fill />
         </div>
         <div  className="bg-gray-400 w-full h-[250px] relative">
-          <Image src={"/cole.jpg"} objectFit="cover" fill />
+          <Image alt="" src={"/cole.jpg"} objectFit="cover" fill />
         </div>
         <div  className="bg-gray-400 w-full h-[250px] relative">
-        <Image src={"/cole2.jpg"} objectFit="cover" fill />
+        <Image src={"/cole2.jpg"} objectFit="cover" fill  alt=""/>
 
         </div>
       </div>
-      <Image src={"/miradas.png"}  width={200} 
+      <Image alt="" src={"/miradas.png"}  width={200} 
       height={300} className="absolute -top-32 right-[5%]"/>
     </section>
     <footer className="flex py-10 justify-center items-center">

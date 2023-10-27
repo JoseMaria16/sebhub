@@ -9,7 +9,7 @@ export default function Layout({children}) {
         <div className="flex lg:px-12 gap-5 lg:flex-row flex-col">
            <div className={`overflow-hidden w-[100%] 2xl:fixed 2xl:top-32 ${open ? 'h-[80px]' : 'h-max'} py-5  lg:w-[400px]`}>
            <div className=" items-center px-5 flex justify-between">
-                <Image src={"/books.png"} width={70} height={100} />
+                <Image alt="" src={"/books.png"} width={70} height={100} />
                 <h3 className="text-3xl">Recursos</h3>
                 <button onClick={() => setOpen(!open)} className="text-4xl">
                     {open === true ? (

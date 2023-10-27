@@ -142,7 +142,7 @@ const libros = [
   },
 ]
 
-function page() {
+function Libros() {
   const allCategories = ['Todas', ...new Set(libros.map(article => article.category))]
   const [categories, setCategories] = useState(allCategories)
   const [articles, setArticles] = useState(libros)
@@ -192,7 +192,7 @@ function page() {
                   
                   <div className='flex flex-col gap-2'>
                   <div className='flex items-center -mt-10 gap-5'>
-                    <Image src={"/PAGES.svg"}  width={30} height={20}/>
+                    <Image alt='' src={"/PAGES.svg"}  width={30} height={20}/>
                     <h2>paginas: 115</h2>
                   </div>
                     <div className='flex  gap-2 '>
@@ -208,4 +208,4 @@ function page() {
   )
 }
 
-export default page
+export default Libros
